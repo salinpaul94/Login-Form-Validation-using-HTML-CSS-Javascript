@@ -68,12 +68,6 @@ body {
         place-items: center;
         background: #1abc9c;
     }
-
-    .container{
-        /* max-width: 440px; */
-        /* padding: 0 20px; */
-        /* margin: 170px auto; */
-    }
     
     .wrapper {
         width: 380px;
