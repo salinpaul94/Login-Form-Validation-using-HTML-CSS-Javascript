@@ -6,17 +6,29 @@
 }
 
 body {
+    display: grid;
     height: 100%;
     place-items: center;
     background: #1abc9c;
 }
 
-.divButton{
-    width: 100%;
-}
-
 .button {
-    width: 100%;
+    width: 300px;
     padding: 10px;
     cursor: pointer;
+}
+
+@media screen and (max-width: 480px) {
+    #resume {
+        width: 100%;
+    }
+
+    .divButton{
+        width: 100%;
+    }
+    .button {
+        width: 100%;
+        padding: 10px;
+        cursor: pointer;
+    }
 }
