@@ -29,10 +29,6 @@ const jobApplication = [
 // document.getElementById("previous").innerHTML = "";
 let imgSrc = 0;
 
-
-let roleData = jobApplication.map(value => value.role);
-console.log(roleData);
-
 let img = document.createElement( "img" );
 img.src = jobApplication[imgSrc].img;
 document.getElementById('resume').appendChild(img);
@@ -79,3 +75,17 @@ function myBack() {
         }
     }
 }
+
+var roleData = jobApplication.map(value => value.role.toUpperCase());
+console.log(roleData);
+
+// var keys=document.getElementById('key').value.toUpperCase();
+
+// function searchFun() {
+//     for(let i=0; i<roleData.length; i++){
+//         if(roleData[i].indexOf(keys) > -1) {
+//             console.log("hi");
+//             // document.write(keys.value + " <b>Not Found</b>");
+//         }
+//     }  
+// }
