@@ -21,13 +21,14 @@ body {
 @media screen and (max-width: 480px) {
     #resume {
         width: 100%;
+        object-fit: scale-down;
     }
 
     .divButton{
-        width: 100%;
+        width: 300px;
     }
     .button {
-        width: 100%;
+        width: 300px;
         padding: 10px;
         cursor: pointer;
     }
