@@ -49,7 +49,7 @@ function myNext() {
         img.src = jobApplication[imgSrc].img;
         loadPrevious();
     }
-    if(imgSrc === jobApplication.length){
+    if(imgSrc === jobApplication.length-1){
         document.getElementById("next").innerHTML = "";
     } 
 }
